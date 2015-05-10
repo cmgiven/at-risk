@@ -1,6 +1,21 @@
 // bower:scss
 // endbower
 
+.alert {
+  max-width: 510px;
+  margin: 30px auto 44px auto;
+  padding: 15px 30px 20px 30px;
+  background: #f0d95b;
+  border-radius: 15px;
+  -moz-box-shadow:    0 5px 8px rgba(26, 30, 32, .25);
+  -webkit-box-shadow: 0 5px 8px rgba(26, 30, 32, .25);
+  box-shadow:         0 5px 8px rgba(26, 30, 32, .25);
+
+  a {
+    text-decoration: underline;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
